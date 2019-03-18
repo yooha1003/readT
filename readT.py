@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # this script is for calculation of visual angle
-# example vaCal.py 2.5 70
+# example readT.py 0.67 136 3
 # written by Uksu, Choi (uschoi@nict.go.jp)
 
 import sys
@@ -14,7 +14,7 @@ echo_spacing = float(sys.argv[1])
 EPI_factor = float(sys.argv[2])
 iPAT = float(sys.argv[3])
 
-readoutT = (((EPI_factor/iPAT)-1)*echo_spacing)/1000
+readoutT = (((EPI_factor-1)*echo_spacing/iPAT))/1000
 
 
-print '[Readout Time] =',"{0:.2f}".format(readoutT), 'degree'
+print '[Readout Time] =',"{0:.3f}".format(readoutT), 'second'
