@@ -16,5 +16,4 @@ iPAT = float(sys.argv[3])
 
 readoutT = (((EPI_factor-1)*echo_spacing/iPAT))/1000
 
-
 print '[Readout Time] =',"{0:.4f}".format(readoutT), 'second'
