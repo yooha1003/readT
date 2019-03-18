@@ -5,4 +5,5 @@
 > ```readT.py 1.03 150 3```
 
 ### Example
-![](assets/README-06d890fc.png)
+![](assets/README-3079d016.png)
+![](assets/README-d6d3bd0d.png)
