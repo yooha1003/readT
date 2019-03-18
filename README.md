@@ -1,6 +1,6 @@
 ## _READOUT time calculation python script_
 
-### Usage Example
+### Usage Example:
 ```readT.py echo_spacing EPI_factor iPAT```
 > ```readT.py 1.03 150 3```
 
